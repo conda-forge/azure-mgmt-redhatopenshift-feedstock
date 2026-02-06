@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-redhatopenshift
-  version: 2.0.0
+  version: "3.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_redhatopenshift-${{ version }}.tar.gz
-  sha256: 9d304acbba7c9f42561269f707210aada9c7b5ea0990f2722df60599a08e3aae
+  sha256: 4775c9bdf363238834da145e5f59f97683ab04f8ddbd250de45d45e33798327f
 
 build:
   number: 0
